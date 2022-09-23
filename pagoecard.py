@@ -1,5 +1,4 @@
 import webbrowser as wb
-import Pillow
 from PIL import Image
 from PIL import ImageTk
 import tkinter
