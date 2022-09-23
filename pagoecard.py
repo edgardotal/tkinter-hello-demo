@@ -1,6 +1,7 @@
 import webbrowser as wb
-from pillow import Image
-from pillow import ImageTk
+import pillow
+from PIL import Image
+from PIL import ImageTk
 import tkinter
 import tkinter as tk
 from os import path
