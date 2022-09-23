@@ -1,1 +1,1 @@
-worker: pagoecard.py
+worker: python pagoecard.py
