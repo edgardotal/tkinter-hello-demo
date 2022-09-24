@@ -1,7 +1,8 @@
 import os, sys
 from os import path
 import webbrowser as wb
-from tk import *
+from tkinter import * as tk
+import tkinter as tk
 from PIL import *
 
 def acceso_web():
