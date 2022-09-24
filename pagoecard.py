@@ -14,7 +14,7 @@ def acceso_web():
 
 
 
-ventana= tk.Tk()
+ventana = tk.Tk()
 ventana.title("Boton de Pago")
 ventana.geometry("350x150")
 imagen = ImageTk.PhotoImage(Image.open("logologin.jpeg"))
