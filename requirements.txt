@@ -16,9 +16,15 @@ MarkupSafe==2.1.1
 pefile==2022.5.30
 Pillow==9.2.0
 platformdirs==2.5.2
+Pygments==2.13.0
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+pywin32==304
+pywin32-ctypes==0.2.0
 requests==2.28.1
+tk==0.1.0
 urllib3==1.26.12
 virtualenv==20.16.5
 Werkzeug==2.2.2
 zipp==3.8.1
-tk==0.1.0
