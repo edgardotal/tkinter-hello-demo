@@ -1,7 +1,7 @@
 import os, sys
 from os import path
 import webbrowser as wb
-from tkinter import * as tk
+from tkinter import * 
 import tkinter as tk
 from PIL import *
 
