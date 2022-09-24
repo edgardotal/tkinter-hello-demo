@@ -1,10 +1,8 @@
 import os, sys
 from os import path
 import webbrowser as wb
-#from tkinter import *
-#import tkinter as tk
-#from tkinter import ttk
-from PIL import Image, ImageTk
+from tk import *
+from PIL import *
 
 def acceso_web():
     #url = wb.open('ecard.center/index/express_checkout/index.php')
