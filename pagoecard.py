@@ -1,17 +1,10 @@
-from os import path
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-
-
-#class MainApp(QMainWindow):
-#	def __init__(self, parent=none, args)
-    
-
-
-app = QApplication([])
-window = QMainWindow()
-window.show()
-app.exec()	
-
-
+import tkinter
+from tkinter.constants import *
+tk = tkinter.Tk()
+frame = tkinter.Frame(tk, relief=RIDGE, borderwidth=2)
+frame.pack(fill=BOTH,expand=1)
+label = tkinter.Label(frame, text="Hello, World")
+label.pack(fill=X, expand=1)
+button = tkinter.Button(frame,text="Exit",command=tk.destroy)
+button.pack(side=BOTTOM)
+tk.mainloop()
