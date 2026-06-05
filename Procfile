@@ -1,1 +1,4 @@
-echo "web: gunicorn app:app" > Procfile
+
+# worker: python pagoecard.py
+web: gunicorn app:app
+
